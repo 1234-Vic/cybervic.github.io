@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cybersecurity Analyst Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b1120;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #111827;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: #22d3ee;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #22d3ee;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #22d3ee;
+}
+
+.hero h1 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.hero p {
+    color: #94a3b8;
+}
+
+section {
+    padding: 70px 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #22d3ee;
+}
+
+.about {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill {
+    background: #111827;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #22d3ee;
+    font-size: 14px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.project-card {
+    background: #111827;
+    width: 270px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #22d3ee55;
+}
+
+.project-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact input, .contact textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact button {
+    padding: 10px 25px;
+    border: none;
+    background: #22d3ee;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.direct-contact {
+    margin-top: 40px;
+    color: #cbd5e1;
+}
+
+.direct-contact a {
+    color: #22d3ee;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+    color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>Cybersecurity Portfolio</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <img src="my-photo.jpg" alt="Victor Onakunle">
+    <h1>I'm Cybervic a Cybersecurity Analyst</h1>
+    <p>Threat Detection | Network Security | Secure Development</p>
+</section>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about">
+        <p>
+        I am a dedicated cybersecurity professional with a strong passion for protecting systems, networks, and data from evolving digital threats. I specialize in identifying vulnerabilities, strengthening security architectures, and staying one step ahead of attackers through proactive defense strategies. Alongside cybersecurity, I have a growing interest in web development, where I build responsive and dynamic websites while applying secure coding principles to create safe and reliable digital experiences.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Technical Skills & Tools</h2>
+    <div class="skills">
+        <div class="skill">Kali Linux</div>
+        <div class="skill">Wireshark</div>
+        <div class="skill">Nmap</div>
+        <div class="skill">Metasploit</div>
+        <div class="skill">Burp Suite</div>
+        <div class="skill">OWASP Top 10</div>
+        <div class="skill">Network Security</div>
+        <div class="skill">Vulnerability Assessment</div>
+        <div class="skill">Penetration Testing</div>
+        <div class="skill">Firewall Configuration</div>
+        <div class="skill">Incident Response</div>
+        <div class="skill">Secure Coding</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Node.js</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Security Projects</h2>
+    <div class="projects">
+        <div class="project-card">
+            <img src="school-portal.webp" alt="Secure School Portal">
+            <h3>Secure School Portal</h3>
+            <p>Authentication system with secure data storage and role-based access control.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="result-checker.jpeg" alt="Secure Result Checker">
+            <h3>Secure Result Checker</h3>
+            <p>Protected student data using validation and backend verification.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="Security-awareness.jpeg" alt="Cybersecurity Awareness Platform">
+            <h3>Cybersecurity Awareness Platform</h3>
+            <p>Educational platform focused on phishing awareness and cyber hygiene training.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact">
+
+        <h3>Send a Message</h3>
+
+        <input type="text" id="name" placeholder="Your Name">
+        <br>
+        <input type="email" id="email" placeholder="Your Email">
+        <br>
+        <textarea rows="5" id="message" placeholder="Your Message"></textarea>
+        <br>
+        <button onclick="sendEmail()">Send Message</button>
+
+        <div class="direct-contact">
+            <h3>Direct Contact</h3>
+            <p>Email: victoronakunle49@gmail.com</p>
+            <p>GitHub: <a href="https://github.com/1234-Vic" target="_blank">github.com/1234-Vic</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/victor-onakunle-a14993298" target="_blank">linkedin.com/in/victor-onakunle-a14993298</a></p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Victor Onakunle | Cybersecurity Analyst</p>
+</footer>
+
+<script>
+function sendEmail() {
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    const subject = "Portfolio Contact from " + name;
+    const body = "Name: " + name + "%0D%0AEmail: " + email + "%0D%0A%0D%0A" + message;
+
+    window.location.href = "mailto:victoronakunle49@gmail.com?subject=" + subject + "&body=" + body;
+}
+</script>
+
+</body>
+</html>
